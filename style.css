@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 60vw;
+	margin: 0 auto;
+	text-align: center;
+	/* border: 1px dashed black; */
+}
+
+section {
+	/* border: 1px solid #999; */
+}
+
+h1 {
+	margin: 20px;
+	padding: 10px;
+}
+
+h2 {
+	color: turquoise;
+	margin: 20px;
+	padding: 10px;
+}
+
+textarea {
+	font: 1em sans-serif;
+	width: 50%;
+	box-sizing: border-box;
+	border: 1px solid #999;
+	border-radius: 10px;
+	padding: 10px;
+	vertical-align: middle;
+	margin: 20px;
+}
+
+label {
+	/* padding: 10px; */
+}
+
+button {
+	padding: 10px;
+	width: 20%;
+	margin-left: 50px;
+	background-color: turquoise;
+	border: 1px solid #999;
+	border-radius: 5px;
+}
+
+.notes-board {
+	width: auto;
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	gap: 10px;
+	justify-content: center;
+}
+
+p#new-note {
+	border: 0.5px solid #dcdcdc;
+	border-radius: 3px;
+	margin: 20px 25px;
+	height: 100px;
+	padding: 10px;
+	text-align: left;
+	overflow: hidden;
+}
+
+p#no-notes {
+	margin: 10px;
+}
+/* b0c4de */
