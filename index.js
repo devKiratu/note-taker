@@ -35,7 +35,13 @@ addBtn.addEventListener("click", (e) => {
 
 		let sticky = document.createElement("p");
 		sticky.setAttribute("id", "new-note");
-		sticky.innerHTML = `${input.value}`;
+
+		const maxLength = 35;
+
+		sticky.innerHTML =
+			input.value.length > maxLength
+				? `${input.value.substr(0, maxLength)}...`
+				: input.value;
 
 		//Append created elements to the notes-board
 		noteWrapper.appendChild(noteNumber);
